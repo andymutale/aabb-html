@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/spin.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="energy | w-full h-screen">
+        <section class="align-middle">
+            <h1 class="light relative center ">
+                light skined energy
+            </h1>
+        </section>
+    </div>
+
+    <script>
+        let headline = document.querySelector('.light')
+
+        window.addEventListener('scroll', function(){
+            let scrollTop = window.pageYOffset || document.documentElement.scrolltop;
+            let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrollPosition = ((scrollTop / scrollHeight) -.4)*100;
+
+            headline.style.setProperty('--rotation', '${scrollPosition}deg')
+        });
+    </script>
+</body>
+</html>

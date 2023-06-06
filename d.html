@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/d.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="wrapper">
+            <section>
+                <img src="/img/tea cee.jpeg " alt="" class="andy">
+                <h1>the unseen Tikvah</h1>
+                <img src="/img/bluesky cee.jpeg" alt="" class="cee">
+                <div class="content">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="">
+                        <span>
+                            veiw gallery
+                        </span>
+                    </a>
+                </div>
+
+
+                <img src="/img/rain.jpg " alt="" class="tea">
+            </section>
+
+            
+            
+        </div>
+        <script src="/dist/gsap.min.js"></script>
+    
+        
+    <script>
+        let tl = gsap.timeline({defaults: {ease:"power$.inOut", duration:"2"}});
+        
+
+        tl.to('h1',{ 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',opacity: 1, y:0, duration:2.2})
+        .to('.andy',{ 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',opacity: 1, y:0, duration:2.2})
+        .to('.cee',{ 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',opacity: 1, y:0, duration:2.2})
+        .to('.tea',{ 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',opacity: 1, y:0, duration:2.2})
+    </script>
+</body>
+</html>
