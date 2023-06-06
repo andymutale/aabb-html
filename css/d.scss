@@ -1,0 +1,138 @@
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background: #1a1d20;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo 
+{
+    width: 8rem;
+}
+
+section
+{
+    background: #f1f1f1;
+    height: 500px;
+    margin-top: 20em;
+
+    padding: 2em;
+
+    display: grid;
+    grid-template-areas:
+    "andy header header"
+    "andy cee content"
+    "tea cee content" 
+    ;
+
+    gap: 2em;
+    grid-template-columns: repeat(2,1fr) 2fr;
+    grid-template-rows: auto 1fr 100px;
+    position: relative;
+
+   /*::before
+    {
+        position: absolute;
+        
+        font-weight: 600;
+        z-index: -1;
+        font-size: 20rem;
+        top: -190px;
+        left: -200px;
+        content: 'yo';
+    }*/
+
+}
+
+.andy
+{
+    grid-area: andy;
+}
+h1
+{
+    grid-area: header;
+}
+.cee
+{
+    grid-area: cee;
+}
+.content
+{
+    grid-area: content;
+}
+
+.tea
+{
+    grid-area: tea;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+
+    clip-path: polygon(0 100%, 100% 100%, 100% 100% 0% 100%);
+    opacity: 0;
+}
+
+h1
+{
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1em;
+
+    clip-path: polygon(0 100%, 100% 100%, 100% 100% 0% 100%);
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+p,
+a
+{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+
+    clip-path: polygon(0 100%, 100% 100%, 100% 100% 0% 100%);
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+p
+{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.content
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+

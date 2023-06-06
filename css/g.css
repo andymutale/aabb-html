@@ -1,0 +1,203 @@
+:root {
+  --font-s: 1.25vw;
+  --line-h: 1.8vw;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Neima", sans-serif;
+  color: #2d2926;
+  font-size: 0.9vw;
+  line-height: 1.4vw;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+section {
+  padding-top: 12vw;
+  position: relative;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+
+.vision {
+  padding-top: 20vw;
+  padding-right: 0;
+  padding-bottom: 13vw;
+}
+
+.space {
+  margin-bottom: 2vw;
+}
+
+.line {
+  align-self: auto;
+  flex: 0 auto;
+  font-size: 2.3vw;
+  line-height: 3vw;
+}
+
+.fancy-1 {
+  font-size: 3.9vw;
+  line-height: 6vw;
+  text-align: left;
+  font-weight: 300;
+  white-space: break-spaces;
+}
+
+/*image*/
+img img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.contained-image {
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+/*text*/
+.text {
+  font-size: var(--font-s);
+  line-height: var(--line-h);
+  font-style: normal;
+  white-space: break-spaces;
+}
+
+.roo {
+  position: relative;
+  display: flex;
+}
+
+.vision .roo {
+  margin-top: 5vw;
+  flex: 1 1 0%;
+}
+.vision .roo .froo {
+  display: flex;
+  overflow: hidden;
+  height: 35vw;
+  max-width: 65%;
+  flex-direction: row;
+  flex: 0 auto;
+}
+.vision .roo .froo .col .vis {
+  overflow: hidden;
+  height: 38vw;
+  padding-right: 3.5vw;
+  justify-content: center;
+  align-items: center;
+}
+.vision .roo .froo .col .vis .contained-image {
+  width: auto;
+}
+
+.block {
+  max-width: 100%;
+}
+.block .block-1 {
+  padding-right: 4vw;
+}
+.block .block-1 .block-h {
+  font-size: 7vw;
+  line-height: 9vw;
+}
+
+/*the H's*/
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 2.95vw;
+  line-height: 3.2vw;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 3.75vw;
+  line-height: 4.5vw;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 479px) {
+  .vision {
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+  }
+  .space {
+    margin-bottom: 1vw;
+  }
+  .overline {
+    display: inline-block;
+    color: #2d2926;
+    font-size: 0.73vw;
+    line-height: 1.1vw;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .block {
+    max-width: 80%;
+  }
+  .block .block-h {
+    font-size: 2.95vw;
+    line-height: 3.2vw;
+  }
+}
+@media screen and (max-width: 991px) {
+  .fancy-1 {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (max-width: 479px) {
+  .roo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .roo .flexx {
+    height: 60vw;
+    max-width: 100%;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+  }
+}
+/*team section*/
+.link {
+  overflow: hidden;
+  cursor: pointer;
+  max-width: 100%;
+  display: inline-block;
+  background-color: transparent;
+  color: #2d2926;
+  text-decoration: none;
+}
+
+.hero {
+  flex-direction: column;
+  padding: 8.5vw 4vw 4.8vw;
+}/*# sourceMappingURL=g.css.map */

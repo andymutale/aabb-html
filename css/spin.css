@@ -1,0 +1,21 @@
+* {
+  background: #005d9b;
+}
+
+.light {
+  position: relative;
+  text-align: center;
+  padding: 2em 0;
+}
+.light ::before {
+  position: absolute;
+  content: "light skinned energy";
+  padding: 2em 0;
+  top: 0;
+  left: 0;
+  -webkit-clip-path: circle(30% at 50% 50%);
+          clip-path: circle(30% at 50% 50%);
+  color: rgb(248, 163, 35);
+  transform: rotate(var(--rotation, 0));
+  transition: transform 1s;
+}/*# sourceMappingURL=spin.css.map */

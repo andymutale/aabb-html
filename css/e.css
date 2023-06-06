@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background: #bb9768;
+}
+
+.grid-container {
+  background: #bb9768;
+  margin-top: 20em;
+  padding: 2em;
+  display: grid;
+  grid-template-areas: "one two " "four five " "three six";
+  gap: 2em;
+  grid-template-columns: repeat(2fr);
+  grid-template-rows: auto 1fr;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}/*# sourceMappingURL=e.css.map */

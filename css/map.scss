@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@1,200&display=swap');
+
+body
+{
+
+    background: #dbd8d3;
+
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.banks
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+
+.map
+{
+    padding-bottom: 50%;
+    position: relative;
+
+    iframe
+    {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+}
