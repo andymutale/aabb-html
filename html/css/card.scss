@@ -1,0 +1,71 @@
+
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overscroll-behavior-y: none;
+}
+
+
+
+
+
+.card
+{
+    width: 100%;
+    .c-1
+    {
+        position: relative;
+        .card-a
+        {
+            display: block;
+        }
+        a
+        {
+            background-color: transparent;
+            color: burlywood;
+            text-decoration: none;
+
+            .card-f
+            {
+                display: flex;
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+
+                .picture-f
+                {
+                    display: block;
+                    width: 100%;
+                    height: 459px;
+                    object-fit: cover;
+
+                    .pic
+                    {
+                        object-fit: cover;
+                    }
+                }
+
+                img
+                {
+                    border: 0;
+                    vertical-align: middle;
+                    display: inline-block;
+                    max-width: 100%;
+                }
+            }
+            figure
+            {
+                margin: 0;
+            }
+        }
+    }
+}
