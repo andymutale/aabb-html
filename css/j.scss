@@ -1,0 +1,124 @@
+
+
+html 
+{
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    height: 100%;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overscroll-behavior: none;
+}
+
+body 
+{
+    font-family: 'Poppins',sans-serif;
+    color: #2a2a2a;
+    font-size: .9vw;
+    line-height: 1.34vw;
+    font-weight: 300;
+    letter-spacing: -.02rem;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+.container-1 .main-1
+{
+    width: 100%;
+    overflow: hidden;
+
+    .hero
+    {
+        height: 50vw;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        .hero-1
+        {
+            height: 100%;
+            .hero-img
+            {
+                position: relative;
+                overflow: hidden;
+                height: 100%;
+                background-color: #2a2a2a;
+                background-image: none;
+
+                .img-1
+                {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .con-1
+    {
+        position: relative;
+        display: flex;
+        padding: 8.5vw 4vw 4.8vw;
+
+        .con-2
+        {
+            height: 42vw;
+            padding-right: 20vw;
+            padding-left: 20vw;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .con-a
+            {
+                flex: 1;
+                .l-1
+                {
+                    width: 60%;
+                    margin-bottom: 2vw;
+                    flex: 0 auto;
+                    text-align: center;
+
+                    .line-1
+                    {
+                        display: flex;
+                        align-items: center;
+                    }
+                    .text
+                    {
+                        font-weight: 300;
+                        white-space: break-spaces;
+
+                        .line-1
+                        {
+                            display: inline-block;
+                            font-family: sans-serif;
+                            color: #2d2926;
+                            font-size: .73vw;
+                            line-height: 1.1vw;
+                            font-weight: 500;
+                            letter-spacing: .1em;
+                            text-transform: uppercase;
+                          }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
